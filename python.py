@@ -10,3 +10,6 @@ class A(B):
 
 # syntax error
 1 = 'a'
+
+# syntax error (pyflakes)
+-=
