@@ -13,3 +13,12 @@ class A(B):
 
 # syntax error (pyflakes)
 -=
+
+# undefined variable
+print(a)
+
+# method could be a function
+class A(object):
+
+    def f(self):
+        return True
